@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279B49C92044BF32003056D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279B49C72044BF32003056D3 /* Assets.xcassets */; };
+		279B49CA2044BF32003056D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279B49C82044BF32003056D3 /* LaunchScreen.storyboard */; };
+		279B49CB2044BF7C003056D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27438299204093C2001D9111 /* InfoPlist.strings */; };
+		279B49CC2044BF7C003056D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2743829B204093C2001D9111 /* Localizable.strings */; };
+		279B49CD2044BF7C003056D3 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 27438297204093C2001D9111 /* Localizable.stringsdict */; };
+		279B49D12044C00C003056D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279B49D02044C00C003056D3 /* Main.storyboard */; };
+		279B49D22044C017003056D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7062038791100426040 /* MainViewController.swift */; };
+		279B49D32044C01B003056D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E520386FD700426040 /* ViewController.swift */; };
+		279B49D42044C023003056D3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7112038837D00426040 /* CollectionViewCell.swift */; };
+		279B49D52044C032003056D3 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382A1204098C2001D9111 /* TagsViewModel.swift */; };
+		279B49D62044C038003056D3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FC2038771900426040 /* Colors.swift */; };
+		279B49D72044C038003056D3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382952040936F001D9111 /* Fonts.swift */; };
+		279B49D82044C038003056D3 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FB2038771900426040 /* Images.swift */; };
+		279B49D92044C038003056D3 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F92038771900426040 /* Storyboards.swift */; };
+		279B49DA2044C038003056D3 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F82038771900426040 /* Strings.swift */; };
+		279B49E62044C0E3003056D3 /* TagsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B49DF2044C0E3003056D3 /* TagsCollectionViewCell.xib */; };
+		279B49E72044C0E3003056D3 /* MyTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B49E12044C0E3003056D3 /* MyTagView.xib */; };
+		279B49E82044C0E3003056D3 /* TagsHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B49E42044C0E3003056D3 /* TagsHeaderReusableView.xib */; };
+		279B49E92044C128003056D3 /* TagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C72320388A7B00426040 /* TagsCollectionViewCell.swift */; };
+		279B49EA2044C12A003056D3 /* MyTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7292038942500426040 /* MyTagView.swift */; };
+		279B49EB2044C12D003056D3 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382B02040EC16001D9111 /* CollectionReusableView.swift */; };
+		279B49EC2044C12F003056D3 /* TagsHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382AD2040EC01001D9111 /* TagsHeaderReusableView.swift */; };
+		279B4A042044C215003056D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279B4A022044C215003056D3 /* Assets.xcassets */; };
+		279B4A072044C4EE003056D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E720386FD700426040 /* AppDelegate.swift */; };
+		279B4A1C2044C73B003056D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E720386FD700426040 /* AppDelegate.swift */; };
+		279B4A1D2044C73E003056D3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FC2038771900426040 /* Colors.swift */; };
+		279B4A1E2044C740003056D3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382952040936F001D9111 /* Fonts.swift */; };
+		279B4A1F2044C742003056D3 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FB2038771900426040 /* Images.swift */; };
+		279B4A202044C744003056D3 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F92038771900426040 /* Storyboards.swift */; };
+		279B4A212044C746003056D3 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F82038771900426040 /* Strings.swift */; };
+		279B4A222044C75B003056D3 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382A1204098C2001D9111 /* TagsViewModel.swift */; };
+		279B4A232044C764003056D3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7112038837D00426040 /* CollectionViewCell.swift */; };
+		279B4A242044C766003056D3 /* TagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C72320388A7B00426040 /* TagsCollectionViewCell.swift */; };
+		279B4A252044C769003056D3 /* MyTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7292038942500426040 /* MyTagView.swift */; };
+		279B4A262044C76B003056D3 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382B02040EC16001D9111 /* CollectionReusableView.swift */; };
+		279B4A272044C76D003056D3 /* TagsHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382AD2040EC01001D9111 /* TagsHeaderReusableView.swift */; };
+		279B4A282044C770003056D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E520386FD700426040 /* ViewController.swift */; };
+		279B4A292044C772003056D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7062038791100426040 /* MainViewController.swift */; };
+		279B4A2B2044C7E0003056D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279B4A2A2044C7E0003056D3 /* Main.storyboard */; };
+		279B4A312044C8A4003056D3 /* TagsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B4A2F2044C8A4003056D3 /* TagsCollectionViewCell.xib */; };
+		279B4A332044C915003056D3 /* MyTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B4A322044C915003056D3 /* MyTagView.xib */; };
+		279B4A352044C98C003056D3 /* TagsHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B4A342044C98C003056D3 /* TagsHeaderReusableView.xib */; };
+		279B4A362044CA3A003056D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27438299204093C2001D9111 /* InfoPlist.strings */; };
+		279B4A372044CA3A003056D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2743829B204093C2001D9111 /* Localizable.strings */; };
+		279B4A382044CA3A003056D3 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 27438297204093C2001D9111 /* Localizable.stringsdict */; };
+		2D8B5EAA9EA810FD3176181B /* Pods_KTTagsView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D825A6B8847DDBDB6161C80A /* Pods_KTTagsView_iOS.framework */; };
+		E2891788B78F340EA93827D7 /* Pods_KTTagsView_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C43466A2F6510B30A1E357 /* Pods_KTTagsView_tvOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		274382952040936F001D9111 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		27438298204093C2001D9111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		2743829A204093C2001D9111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2743829C204093C2001D9111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		274382A1204098C2001D9111 /* TagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewModel.swift; sourceTree = "<group>"; };
+		274382AD2040EC01001D9111 /* TagsHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsHeaderReusableView.swift; sourceTree = "<group>"; };
+		274382B02040EC16001D9111 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		279B49B12044BE3B003056D3 /* KTTagsView iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTTagsView iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279B49C52044BED0003056D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279B49C72044BF32003056D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279B49C82044BF32003056D3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		279B49D02044C00C003056D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		279B49DF2044C0E3003056D3 /* TagsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsCollectionViewCell.xib; sourceTree = "<group>"; };
+		279B49E12044C0E3003056D3 /* MyTagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTagView.xib; sourceTree = "<group>"; };
+		279B49E42044C0E3003056D3 /* TagsHeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsHeaderReusableView.xib; sourceTree = "<group>"; };
+		279B49F12044C1D3003056D3 /* KTTagsView tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTTagsView tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279B4A022044C215003056D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279B4A032044C215003056D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279B4A2A2044C7E0003056D3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		279B4A2F2044C8A4003056D3 /* TagsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagsCollectionViewCell.xib; sourceTree = "<group>"; };
+		279B4A322044C915003056D3 /* MyTagView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTagView.xib; sourceTree = "<group>"; };
+		279B4A342044C98C003056D3 /* TagsHeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagsHeaderReusableView.xib; sourceTree = "<group>"; };
+		27E7C6E520386FD700426040 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E7C6E720386FD700426040 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E7C6F42038767400426040 /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		27E7C6F82038771900426040 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		27E7C6F92038771900426040 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		27E7C6FB2038771900426040 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		27E7C6FC2038771900426040 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		27E7C7062038791100426040 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		27E7C7112038837D00426040 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		27E7C71E203887C700426040 /* swiftgen */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = swiftgen; sourceTree = "<group>"; };
+		27E7C71F203887C700426040 /* swiftlint */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = swiftlint; sourceTree = "<group>"; };
+		27E7C72320388A7B00426040 /* TagsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsCollectionViewCell.swift; sourceTree = "<group>"; };
+		27E7C7292038942500426040 /* MyTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTagView.swift; sourceTree = "<group>"; };
+		7234E1917AAB4DF5BD056FA1 /* Pods-KTTagsView tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTTagsView tvOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-KTTagsView tvOS/Pods-KTTagsView tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		ACED3D735D77B366E658CD74 /* Pods-KTTagsView iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTTagsView iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D825A6B8847DDBDB6161C80A /* Pods_KTTagsView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTTagsView_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F7F08B734BD99D07766294 /* Pods-KTTagsView tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTTagsView tvOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-KTTagsView tvOS/Pods-KTTagsView tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C43466A2F6510B30A1E357 /* Pods_KTTagsView_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTTagsView_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49FFD618F6B97500E919425 /* Pods-KTTagsView iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTTagsView iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279B49AE2044BE3B003056D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8B5EAA9EA810FD3176181B /* Pods_KTTagsView_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279B49EE2044C1D3003056D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2891788B78F340EA93827D7 /* Pods_KTTagsView_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274382A0204098A1001D9111 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				274382A1204098C2001D9111 /* TagsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		274382A62040EB77001D9111 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				274382B02040EC16001D9111 /* CollectionReusableView.swift */,
+				274382AB2040EBEC001D9111 /* Tags */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		274382AB2040EBEC001D9111 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				274382AD2040EC01001D9111 /* TagsHeaderReusableView.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		279B49B22044BE3B003056D3 /* KTTagsView iOS */ = {
+			isa = PBXGroup;
+			children = (
+				279B49C32044BED0003056D3 /* Code */,
+				279B49C42044BED0003056D3 /* Resources */,
+			);
+			path = "KTTagsView iOS";
+			sourceTree = "<group>";
+		};
+		279B49C32044BED0003056D3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				279B49DB2044C0E3003056D3 /* Views */,
+				279B49CE2044C00C003056D3 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		279B49C42044BED0003056D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				279B49C52044BED0003056D3 /* Info.plist */,
+				279B49C72044BF32003056D3 /* Assets.xcassets */,
+				279B49C82044BF32003056D3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		279B49CE2044C00C003056D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				279B49CF2044C00C003056D3 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		279B49CF2044C00C003056D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				279B49D02044C00C003056D3 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		279B49DB2044C0E3003056D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				279B49DC2044C0E3003056D3 /* Cells */,
+				279B49E02044C0E3003056D3 /* CustomViews */,
+				279B49E22044C0E3003056D3 /* ReusableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		279B49DC2044C0E3003056D3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				279B49DE2044C0E3003056D3 /* Tags */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		279B49DE2044C0E3003056D3 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				279B49DF2044C0E3003056D3 /* TagsCollectionViewCell.xib */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		279B49E02044C0E3003056D3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				279B49E12044C0E3003056D3 /* MyTagView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		279B49E22044C0E3003056D3 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				279B49E32044C0E3003056D3 /* Tags */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		279B49E32044C0E3003056D3 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				279B49E42044C0E3003056D3 /* TagsHeaderReusableView.xib */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		279B49F22044C1D3003056D3 /* KTTagsView tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A002044C215003056D3 /* Code */,
+				279B4A012044C215003056D3 /* Resources */,
+			);
+			path = "KTTagsView tvOS";
+			sourceTree = "<group>";
+		};
+		279B4A002044C215003056D3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A0C2044C6C6003056D3 /* Views */,
+				279B4A092044C6C6003056D3 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		279B4A012044C215003056D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A032044C215003056D3 /* Info.plist */,
+				279B4A022044C215003056D3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		279B4A092044C6C6003056D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A0A2044C6C6003056D3 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		279B4A0A2044C6C6003056D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A2A2044C7E0003056D3 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		279B4A0C2044C6C6003056D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A0D2044C6C6003056D3 /* Cells */,
+				279B4A102044C6C6003056D3 /* CustomViews */,
+				279B4A122044C6C6003056D3 /* ReusableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		279B4A0D2044C6C6003056D3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A0E2044C6C6003056D3 /* Tags */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		279B4A0E2044C6C6003056D3 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A2F2044C8A4003056D3 /* TagsCollectionViewCell.xib */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		279B4A102044C6C6003056D3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A322044C915003056D3 /* MyTagView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		279B4A122044C6C6003056D3 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A132044C6C6003056D3 /* Tags */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		279B4A132044C6C6003056D3 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				279B4A342044C98C003056D3 /* TagsHeaderReusableView.xib */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		27E7C6BA20386C9F00426040 = {
+			isa = PBXGroup;
+			children = (
+				27E7C6C520386C9F00426040 /* KTTagsView */,
+				279B49B22044BE3B003056D3 /* KTTagsView iOS */,
+				279B49F22044C1D3003056D3 /* KTTagsView tvOS */,
+				27E7C6C420386C9F00426040 /* Products */,
+				F79C0A7D7E91C3DBB777CCE7 /* Pods */,
+				697F7F7E2D10C9AAC0C26DBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27E7C6C420386C9F00426040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279B49B12044BE3B003056D3 /* KTTagsView iOS.app */,
+				279B49F12044C1D3003056D3 /* KTTagsView tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E7C6C520386C9F00426040 /* KTTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6DB20386D4700426040 /* Code */,
+				27E7C6D820386D4700426040 /* Resources */,
+				27E7C71D203887C700426040 /* Scripts */,
+			);
+			path = KTTagsView;
+			sourceTree = "<group>";
+		};
+		27E7C6D820386D4700426040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6F42038767400426040 /* colors.txt */,
+				27438299204093C2001D9111 /* InfoPlist.strings */,
+				2743829B204093C2001D9111 /* Localizable.strings */,
+				27438297204093C2001D9111 /* Localizable.stringsdict */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27E7C6DB20386D4700426040 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6E620386FD700426040 /* AppDelegate */,
+				27E7C6F62038771900426040 /* Constants */,
+				274382A0204098A1001D9111 /* ViewModels */,
+				27E7C70820387F5400426040 /* Views */,
+				27E7C6E420386FD700426040 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		27E7C6E420386FD700426040 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6E520386FD700426040 /* ViewController.swift */,
+				27E7C703203878F100426040 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27E7C6E620386FD700426040 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6E720386FD700426040 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		27E7C6F62038771900426040 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6F72038771900426040 /* SwiftGen */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		27E7C6F72038771900426040 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C6FC2038771900426040 /* Colors.swift */,
+				274382952040936F001D9111 /* Fonts.swift */,
+				27E7C6FB2038771900426040 /* Images.swift */,
+				27E7C6F92038771900426040 /* Storyboards.swift */,
+				27E7C6F82038771900426040 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		27E7C703203878F100426040 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C7062038791100426040 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		27E7C70820387F5400426040 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C70920387F6F00426040 /* Cells */,
+				27E7C727203893F500426040 /* CustomViews */,
+				274382A62040EB77001D9111 /* ReusableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27E7C70920387F6F00426040 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C7112038837D00426040 /* CollectionViewCell.swift */,
+				27E7C72220388A7B00426040 /* Tags */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		27E7C71D203887C700426040 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C71E203887C700426040 /* swiftgen */,
+				27E7C71F203887C700426040 /* swiftlint */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		27E7C72220388A7B00426040 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C72320388A7B00426040 /* TagsCollectionViewCell.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		27E7C727203893F500426040 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				27E7C7292038942500426040 /* MyTagView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		697F7F7E2D10C9AAC0C26DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D825A6B8847DDBDB6161C80A /* Pods_KTTagsView_iOS.framework */,
+				F3C43466A2F6510B30A1E357 /* Pods_KTTagsView_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79C0A7D7E91C3DBB777CCE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACED3D735D77B366E658CD74 /* Pods-KTTagsView iOS.debug.xcconfig */,
+				F49FFD618F6B97500E919425 /* Pods-KTTagsView iOS.release.xcconfig */,
+				D8F7F08B734BD99D07766294 /* Pods-KTTagsView tvOS.debug.xcconfig */,
+				7234E1917AAB4DF5BD056FA1 /* Pods-KTTagsView tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279B49B02044BE3B003056D3 /* KTTagsView iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279B49C02044BE3B003056D3 /* Build configuration list for PBXNativeTarget "KTTagsView iOS" */;
+			buildPhases = (
+				2981E78E0D522C0FC30FFA88 /* [CP] Check Pods Manifest.lock */,
+				279B4A062044C34A003056D3 /* 🔧 SwiftGen */,
+				279B4A082044C50E003056D3 /* ⚠️ SwiftLint */,
+				279B49AD2044BE3B003056D3 /* Sources */,
+				279B49AE2044BE3B003056D3 /* Frameworks */,
+				279B49AF2044BE3B003056D3 /* Resources */,
+				EF1A51A0CB0566B503EF6AD1 /* [CP] Embed Pods Frameworks */,
+				6EA4ECB5487F2DB41AE03E6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KTTagsView iOS";
+			productName = "KTTagsView iOS";
+			productReference = 279B49B12044BE3B003056D3 /* KTTagsView iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279B49F02044C1D3003056D3 /* KTTagsView tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279B49FD2044C1D3003056D3 /* Build configuration list for PBXNativeTarget "KTTagsView tvOS" */;
+			buildPhases = (
+				3FF98A187E7B26601E005BFF /* [CP] Check Pods Manifest.lock */,
+				279B4A1A2044C6EF003056D3 /* 🔧 SwiftGen */,
+				279B4A1B2044C70D003056D3 /* ⚠️ SwiftLint */,
+				279B49ED2044C1D3003056D3 /* Sources */,
+				279B49EE2044C1D3003056D3 /* Frameworks */,
+				279B49EF2044C1D3003056D3 /* Resources */,
+				30FADEDE683A5FB3137B255A /* [CP] Embed Pods Frameworks */,
+				FA5A9D4BF62DA7DA50C97D2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KTTagsView tvOS";
+			productName = "KTTagsView tvOS";
+			productReference = 279B49F12044C1D3003056D3 /* KTTagsView tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E7C6BB20386C9F00426040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iKiKi;
+				TargetAttributes = {
+					279B49B02044BE3B003056D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					279B49F02044C1D3003056D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 27E7C6BE20386C9F00426040 /* Build configuration list for PBXProject "KTTagsView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E7C6BA20386C9F00426040;
+			productRefGroup = 27E7C6C420386C9F00426040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279B49B02044BE3B003056D3 /* KTTagsView iOS */,
+				279B49F02044C1D3003056D3 /* KTTagsView tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279B49AF2044BE3B003056D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B49CB2044BF7C003056D3 /* InfoPlist.strings in Resources */,
+				279B49CC2044BF7C003056D3 /* Localizable.strings in Resources */,
+				279B49CD2044BF7C003056D3 /* Localizable.stringsdict in Resources */,
+				279B49C92044BF32003056D3 /* Assets.xcassets in Resources */,
+				279B49CA2044BF32003056D3 /* LaunchScreen.storyboard in Resources */,
+				279B49E62044C0E3003056D3 /* TagsCollectionViewCell.xib in Resources */,
+				279B49E82044C0E3003056D3 /* TagsHeaderReusableView.xib in Resources */,
+				279B49E72044C0E3003056D3 /* MyTagView.xib in Resources */,
+				279B49D12044C00C003056D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279B49EF2044C1D3003056D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B4A042044C215003056D3 /* Assets.xcassets in Resources */,
+				279B4A362044CA3A003056D3 /* InfoPlist.strings in Resources */,
+				279B4A312044C8A4003056D3 /* TagsCollectionViewCell.xib in Resources */,
+				279B4A372044CA3A003056D3 /* Localizable.strings in Resources */,
+				279B4A352044C98C003056D3 /* TagsHeaderReusableView.xib in Resources */,
+				279B4A382044CA3A003056D3 /* Localizable.stringsdict in Resources */,
+				279B4A2B2044C7E0003056D3 /* Main.storyboard in Resources */,
+				279B4A332044C915003056D3 /* MyTagView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		279B4A062044C34A003056D3 /* 🔧 SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "🔧 SwiftGen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTTagsView/Scripts/swiftgen\"";
+		};
+		279B4A082044C50E003056D3 /* ⚠️ SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "⚠️ SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTTagsView/Scripts/swiftlint\"";
+		};
+		279B4A1A2044C6EF003056D3 /* 🔧 SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "🔧 SwiftGen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTTagsView/Scripts/swiftgen\"";
+		};
+		279B4A1B2044C70D003056D3 /* ⚠️ SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "⚠️ SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTTagsView/Scripts/swiftlint\"";
+		};
+		2981E78E0D522C0FC30FFA88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTTagsView iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30FADEDE683A5FB3137B255A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView tvOS/Pods-KTTagsView tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reusable-tvOS/Reusable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView tvOS/Pods-KTTagsView tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF98A187E7B26601E005BFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTTagsView tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA4ECB5487F2DB41AE03E6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1A51A0CB0566B503EF6AD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reusable-iOS/Reusable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA5A9D4BF62DA7DA50C97D2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView tvOS/Pods-KTTagsView tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279B49AD2044BE3B003056D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B4A072044C4EE003056D3 /* AppDelegate.swift in Sources */,
+				279B49D62044C038003056D3 /* Colors.swift in Sources */,
+				279B49D72044C038003056D3 /* Fonts.swift in Sources */,
+				279B49D82044C038003056D3 /* Images.swift in Sources */,
+				279B49D92044C038003056D3 /* Storyboards.swift in Sources */,
+				279B49DA2044C038003056D3 /* Strings.swift in Sources */,
+				279B49D52044C032003056D3 /* TagsViewModel.swift in Sources */,
+				279B49D42044C023003056D3 /* CollectionViewCell.swift in Sources */,
+				279B49E92044C128003056D3 /* TagsCollectionViewCell.swift in Sources */,
+				279B49EB2044C12D003056D3 /* CollectionReusableView.swift in Sources */,
+				279B49EC2044C12F003056D3 /* TagsHeaderReusableView.swift in Sources */,
+				279B49EA2044C12A003056D3 /* MyTagView.swift in Sources */,
+				279B49D32044C01B003056D3 /* ViewController.swift in Sources */,
+				279B49D22044C017003056D3 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279B49ED2044C1D3003056D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B4A1C2044C73B003056D3 /* AppDelegate.swift in Sources */,
+				279B4A1D2044C73E003056D3 /* Colors.swift in Sources */,
+				279B4A1E2044C740003056D3 /* Fonts.swift in Sources */,
+				279B4A1F2044C742003056D3 /* Images.swift in Sources */,
+				279B4A202044C744003056D3 /* Storyboards.swift in Sources */,
+				279B4A212044C746003056D3 /* Strings.swift in Sources */,
+				279B4A222044C75B003056D3 /* TagsViewModel.swift in Sources */,
+				279B4A232044C764003056D3 /* CollectionViewCell.swift in Sources */,
+				279B4A242044C766003056D3 /* TagsCollectionViewCell.swift in Sources */,
+				279B4A262044C76B003056D3 /* CollectionReusableView.swift in Sources */,
+				279B4A272044C76D003056D3 /* TagsHeaderReusableView.swift in Sources */,
+				279B4A252044C769003056D3 /* MyTagView.swift in Sources */,
+				279B4A282044C770003056D3 /* ViewController.swift in Sources */,
+				279B4A292044C772003056D3 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27438297204093C2001D9111 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27438298204093C2001D9111 /* en */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		27438299204093C2001D9111 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2743829A204093C2001D9111 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2743829B204093C2001D9111 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2743829C204093C2001D9111 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279B49C12044BE3B003056D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACED3D735D77B366E658CD74 /* Pods-KTTagsView iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTTagsView iOS/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTTagsView-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279B49C22044BE3B003056D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49FFD618F6B97500E919425 /* Pods-KTTagsView iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTTagsView iOS/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTTagsView-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		279B49FE2044C1D3003056D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F7F08B734BD99D07766294 /* Pods-KTTagsView tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTTagsView tvOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTTagsView-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		279B49FF2044C1D3003056D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7234E1917AAB4DF5BD056FA1 /* Pods-KTTagsView tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTTagsView tvOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTTagsView-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		27E7C6D320386C9F00426040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E7C6D420386C9F00426040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279B49C02044BE3B003056D3 /* Build configuration list for PBXNativeTarget "KTTagsView iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279B49C12044BE3B003056D3 /* Debug */,
+				279B49C22044BE3B003056D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279B49FD2044C1D3003056D3 /* Build configuration list for PBXNativeTarget "KTTagsView tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279B49FE2044C1D3003056D3 /* Debug */,
+				279B49FF2044C1D3003056D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E7C6BE20386C9F00426040 /* Build configuration list for PBXProject "KTTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E7C6D320386C9F00426040 /* Debug */,
+				27E7C6D420386C9F00426040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E7C6BB20386C9F00426040 /* Project object */;
+}

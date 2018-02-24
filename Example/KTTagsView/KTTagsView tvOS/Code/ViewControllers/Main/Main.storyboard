@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="MJo-ff-nFF">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9tm-Tu-sQg" customClass="MainViewController" customModule="KTTagsView_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lWa-PB-ldD"/>
+                        <viewControllerLayoutGuide type="bottom" id="bgu-IA-vg8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7iF-og-Hj9">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AmA-MY-z0V">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="bJF-qN-cMY">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9tm-Tu-sQg" id="c0d-rS-b0r"/>
+                                    <outlet property="delegate" destination="9tm-Tu-sQg" id="Wu7-1U-od3"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AmA-MY-z0V" secondAttribute="bottom" id="DKi-aa-EPb"/>
+                            <constraint firstItem="AmA-MY-z0V" firstAttribute="leading" secondItem="7iF-og-Hj9" secondAttribute="leading" id="c2K-CL-HnO"/>
+                            <constraint firstAttribute="trailing" secondItem="AmA-MY-z0V" secondAttribute="trailing" id="rEe-FZ-QCs"/>
+                            <constraint firstItem="AmA-MY-z0V" firstAttribute="top" secondItem="7iF-og-Hj9" secondAttribute="top" id="zTN-14-g2p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kud-5I-rC3"/>
+                    </view>
+                    <connections>
+                        <outlet property="ibCollectionView" destination="AmA-MY-z0V" id="pEO-tu-Rkq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06a-o8-slV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72" y="-923"/>
+        </scene>
+    </scenes>
+</document>

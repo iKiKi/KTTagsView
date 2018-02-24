@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoreHeaderCollectionViewCell" customModule="KTTagsView_iOS" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="TagsHeaderReusableView" customModule="KTTagsView_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="531" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dp1-fb-5wv">
+                    <rect key="frame" x="8" y="53" width="515" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dp1-fb-5wv" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="8" id="9tC-bN-YAa"/>
+                <constraint firstItem="dp1-fb-5wv" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="lKY-Ox-69h"/>
+                <constraint firstAttribute="trailing" secondItem="dp1-fb-5wv" secondAttribute="trailing" constant="8" id="vl4-os-I6J"/>
+            </constraints>
+            <connections>
+                <outlet property="ibLabel" destination="dp1-fb-5wv" id="Qkq-2k-h8F"/>
+            </connections>
+            <point key="canvasLocation" x="-61.5" y="-326"/>
+        </collectionReusableView>
+    </objects>
+</document>

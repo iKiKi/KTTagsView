@@ -1,0 +1,36 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+project './KTTagsView/KTTagsView.xcodeproj'
+use_frameworks!
+inhibit_all_warnings!
+
+def shared_pods
+
+  # Utilities
+  pod 'SwiftGen',  '~> 5.2.1'
+  pod 'SwiftLint', '~> 0.25.0'
+
+  # UI
+  pod 'Reusable', '~> 4.0.0'
+
+end
+
+target 'KTTagsView iOS' do
+  platform :ios, '9.0'
+
+  shared_pods
+
+  # Development
+  pod 'KTTagsView', :path => '../'
+
+end
+
+target 'KTTagsView tvOS' do
+  platform :tvos, '9.0'
+
+  shared_pods
+
+  # Development
+  pod 'KTTagsView', :path => '../'
+
+end
