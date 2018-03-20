@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="1007" height="591"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72s-Qj-qCd" customClass="TagsView" customModule="TagsView">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72s-Qj-qCd" customClass="TagsView" customModule="KTTagsView">
                         <rect key="frame" x="0.0" y="0.0" width="1007" height="591"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -34,7 +34,7 @@
             <viewLayoutGuide key="safeArea" id="7PP-Ag-gPX"/>
             <size key="customSize" width="1007" height="591"/>
             <connections>
-                <outlet property="ibTagsView" destination="72s-Qj-qCd" id="kra-3b-N9V"/>
+                <outlet property="ibTagsView" destination="72s-Qj-qCd" id="RyN-UF-G5x"/>
             </connections>
             <point key="canvasLocation" x="-621.5" y="-491.5"/>
         </collectionViewCell>

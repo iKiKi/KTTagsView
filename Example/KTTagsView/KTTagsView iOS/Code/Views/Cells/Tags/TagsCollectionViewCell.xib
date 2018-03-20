@@ -18,7 +18,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="440" height="232"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fkl-rE-aQc" customClass="TagsView" customModule="TagsView">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fkl-rE-aQc" customClass="TagsView" customModule="KTTagsView">
                         <rect key="frame" x="0.0" y="0.0" width="440" height="232"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -32,7 +32,7 @@
             </constraints>
             <size key="customSize" width="440" height="232"/>
             <connections>
-                <outlet property="ibTagsView" destination="Fkl-rE-aQc" id="3je-zt-iSO"/>
+                <outlet property="ibTagsView" destination="Fkl-rE-aQc" id="QEH-xc-tDc"/>
             </connections>
             <point key="canvasLocation" x="-166" y="-604"/>
         </collectionViewCell>
