@@ -1,17 +1,17 @@
 PODS:
   - KTTagsView (1.0.0)
-  - Reusable (4.0.0):
-    - Reusable/Storyboard (= 4.0.0)
-    - Reusable/View (= 4.0.0)
-  - Reusable/Storyboard (4.0.0)
-  - Reusable/View (4.0.0)
-  - SwiftGen (5.2.1)
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+  - SwiftGen (5.3.0)
   - SwiftLint (0.25.0)
 
 DEPENDENCIES:
   - KTTagsView (from `../`)
   - Reusable (~> 4.0.0)
-  - SwiftGen (~> 5.2.1)
+  - SwiftGen (~> 5.3.0)
   - SwiftLint (~> 0.25.0)
 
 EXTERNAL SOURCES:
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   KTTagsView: ee991b7c48587297429ef37484651bfa3b07c17b
-  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
-  SwiftGen: 444b4c467e512a4812b8a800d731643fd265139e
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+  SwiftGen: 4379bd3640b0a212a0f6ea3c494adba385513d10
   SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
 
-PODFILE CHECKSUM: 18cd7d7f1e2b722495643ac65bce1f283a0ac343
+PODFILE CHECKSUM: aabb0b6ffb5035844b828bc35c687559c06737b1
 
 COCOAPODS: 1.4.0
