@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2787F35F208377F400D41EE2 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35B208377F300D41EE2 /* Storyboards.swift */; };
+		2787F360208377F400D41EE2 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35B208377F300D41EE2 /* Storyboards.swift */; };
+		2787F361208377F400D41EE2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35C208377F400D41EE2 /* Colors.swift */; };
+		2787F362208377F400D41EE2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35C208377F400D41EE2 /* Colors.swift */; };
+		2787F363208377F400D41EE2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35D208377F400D41EE2 /* Assets.swift */; };
+		2787F364208377F400D41EE2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35D208377F400D41EE2 /* Assets.swift */; };
+		2787F365208377F400D41EE2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35E208377F400D41EE2 /* Strings.swift */; };
+		2787F366208377F400D41EE2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F35E208377F400D41EE2 /* Strings.swift */; };
 		279B49C92044BF32003056D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279B49C72044BF32003056D3 /* Assets.xcassets */; };
 		279B49CA2044BF32003056D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279B49C82044BF32003056D3 /* LaunchScreen.storyboard */; };
 		279B49CB2044BF7C003056D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27438299204093C2001D9111 /* InfoPlist.strings */; };
@@ -17,11 +25,6 @@
 		279B49D32044C01B003056D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E520386FD700426040 /* ViewController.swift */; };
 		279B49D42044C023003056D3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7112038837D00426040 /* CollectionViewCell.swift */; };
 		279B49D52044C032003056D3 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382A1204098C2001D9111 /* TagsViewModel.swift */; };
-		279B49D62044C038003056D3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FC2038771900426040 /* Colors.swift */; };
-		279B49D72044C038003056D3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382952040936F001D9111 /* Fonts.swift */; };
-		279B49D82044C038003056D3 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FB2038771900426040 /* Images.swift */; };
-		279B49D92044C038003056D3 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F92038771900426040 /* Storyboards.swift */; };
-		279B49DA2044C038003056D3 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F82038771900426040 /* Strings.swift */; };
 		279B49E62044C0E3003056D3 /* TagsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B49DF2044C0E3003056D3 /* TagsCollectionViewCell.xib */; };
 		279B49E72044C0E3003056D3 /* MyTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B49E12044C0E3003056D3 /* MyTagView.xib */; };
 		279B49E82044C0E3003056D3 /* TagsHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B49E42044C0E3003056D3 /* TagsHeaderReusableView.xib */; };
@@ -32,11 +35,6 @@
 		279B4A042044C215003056D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279B4A022044C215003056D3 /* Assets.xcassets */; };
 		279B4A072044C4EE003056D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E720386FD700426040 /* AppDelegate.swift */; };
 		279B4A1C2044C73B003056D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6E720386FD700426040 /* AppDelegate.swift */; };
-		279B4A1D2044C73E003056D3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FC2038771900426040 /* Colors.swift */; };
-		279B4A1E2044C740003056D3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382952040936F001D9111 /* Fonts.swift */; };
-		279B4A1F2044C742003056D3 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6FB2038771900426040 /* Images.swift */; };
-		279B4A202044C744003056D3 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F92038771900426040 /* Storyboards.swift */; };
-		279B4A212044C746003056D3 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C6F82038771900426040 /* Strings.swift */; };
 		279B4A222044C75B003056D3 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274382A1204098C2001D9111 /* TagsViewModel.swift */; };
 		279B4A232044C764003056D3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C7112038837D00426040 /* CollectionViewCell.swift */; };
 		279B4A242044C766003056D3 /* TagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E7C72320388A7B00426040 /* TagsCollectionViewCell.swift */; };
@@ -57,13 +55,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		274382952040936F001D9111 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		27438298204093C2001D9111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		2743829A204093C2001D9111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2743829C204093C2001D9111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		274382A1204098C2001D9111 /* TagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewModel.swift; sourceTree = "<group>"; };
 		274382AD2040EC01001D9111 /* TagsHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsHeaderReusableView.swift; sourceTree = "<group>"; };
 		274382B02040EC16001D9111 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		2787F35B208377F300D41EE2 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		2787F35C208377F400D41EE2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2787F35D208377F400D41EE2 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		2787F35E208377F400D41EE2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		279B49B12044BE3B003056D3 /* KTTagsView iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTTagsView iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279B49C52044BED0003056D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279B49C72044BF32003056D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,10 +83,6 @@
 		27E7C6E520386FD700426040 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27E7C6E720386FD700426040 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E7C6F42038767400426040 /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
-		27E7C6F82038771900426040 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		27E7C6F92038771900426040 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		27E7C6FB2038771900426040 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
-		27E7C6FC2038771900426040 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		27E7C7062038791100426040 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		27E7C7112038837D00426040 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		27E7C71E203887C700426040 /* swiftgen */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = swiftgen; sourceTree = "<group>"; };
@@ -414,11 +411,10 @@
 		27E7C6F72038771900426040 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				27E7C6FC2038771900426040 /* Colors.swift */,
-				274382952040936F001D9111 /* Fonts.swift */,
-				27E7C6FB2038771900426040 /* Images.swift */,
-				27E7C6F92038771900426040 /* Storyboards.swift */,
-				27E7C6F82038771900426040 /* Strings.swift */,
+				2787F35D208377F400D41EE2 /* Assets.swift */,
+				2787F35C208377F400D41EE2 /* Colors.swift */,
+				2787F35B208377F300D41EE2 /* Storyboards.swift */,
+				2787F35E208377F400D41EE2 /* Strings.swift */,
 			);
 			path = SwiftGen;
 			sourceTree = "<group>";
@@ -782,16 +778,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				279B4A072044C4EE003056D3 /* AppDelegate.swift in Sources */,
-				279B49D62044C038003056D3 /* Colors.swift in Sources */,
-				279B49D72044C038003056D3 /* Fonts.swift in Sources */,
-				279B49D82044C038003056D3 /* Images.swift in Sources */,
-				279B49D92044C038003056D3 /* Storyboards.swift in Sources */,
-				279B49DA2044C038003056D3 /* Strings.swift in Sources */,
+				2787F361208377F400D41EE2 /* Colors.swift in Sources */,
+				2787F363208377F400D41EE2 /* Assets.swift in Sources */,
 				279B49D52044C032003056D3 /* TagsViewModel.swift in Sources */,
 				279B49D42044C023003056D3 /* CollectionViewCell.swift in Sources */,
 				279B49E92044C128003056D3 /* TagsCollectionViewCell.swift in Sources */,
 				279B49EB2044C12D003056D3 /* CollectionReusableView.swift in Sources */,
+				2787F365208377F400D41EE2 /* Strings.swift in Sources */,
 				279B49EC2044C12F003056D3 /* TagsHeaderReusableView.swift in Sources */,
+				2787F35F208377F400D41EE2 /* Storyboards.swift in Sources */,
 				279B49EA2044C12A003056D3 /* MyTagView.swift in Sources */,
 				279B49D32044C01B003056D3 /* ViewController.swift in Sources */,
 				279B49D22044C017003056D3 /* MainViewController.swift in Sources */,
@@ -803,16 +798,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				279B4A1C2044C73B003056D3 /* AppDelegate.swift in Sources */,
-				279B4A1D2044C73E003056D3 /* Colors.swift in Sources */,
-				279B4A1E2044C740003056D3 /* Fonts.swift in Sources */,
-				279B4A1F2044C742003056D3 /* Images.swift in Sources */,
-				279B4A202044C744003056D3 /* Storyboards.swift in Sources */,
-				279B4A212044C746003056D3 /* Strings.swift in Sources */,
+				2787F362208377F400D41EE2 /* Colors.swift in Sources */,
+				2787F364208377F400D41EE2 /* Assets.swift in Sources */,
 				279B4A222044C75B003056D3 /* TagsViewModel.swift in Sources */,
 				279B4A232044C764003056D3 /* CollectionViewCell.swift in Sources */,
 				279B4A242044C766003056D3 /* TagsCollectionViewCell.swift in Sources */,
 				279B4A262044C76B003056D3 /* CollectionReusableView.swift in Sources */,
+				2787F366208377F400D41EE2 /* Strings.swift in Sources */,
 				279B4A272044C76D003056D3 /* TagsHeaderReusableView.swift in Sources */,
+				2787F360208377F400D41EE2 /* Storyboards.swift in Sources */,
 				279B4A252044C769003056D3 /* MyTagView.swift in Sources */,
 				279B4A282044C770003056D3 /* ViewController.swift in Sources */,
 				279B4A292044C772003056D3 /* MainViewController.swift in Sources */,

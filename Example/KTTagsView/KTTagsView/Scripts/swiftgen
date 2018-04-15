@@ -5,7 +5,7 @@ if which $PODS_ROOT/SwiftGen/bin/swiftgen >/dev/null; then
     TARGET_DIR="$PROJECT_DIR/$TARGET_NAME"
     $PODS_ROOT/SwiftGen/bin/swiftgen storyboards "$TARGET_DIR" --output "$COMMON_DIR/Code/Constants/SwiftGen/Storyboards.swift" -t swift4
     $PODS_ROOT/SwiftGen/bin/swiftgen xcassets "$TARGET_DIR/Resources/Assets.xcassets" --output "$COMMON_DIR/Code/Constants/SwiftGen/Assets.swift" -t swift4
-    $PODS_ROOT/SwiftGen/bin/swiftgen colors "$TARGET_DIR/Resources/colors.txt" --output "$COMMON_DIR/Code/Constants/SwiftGen/Colors.swift" -t swift4
+    $PODS_ROOT/SwiftGen/bin/swiftgen colors "$COMMON_DIR/Resources/colors.txt" --output "$COMMON_DIR/Code/Constants/SwiftGen/Colors.swift" -t swift4
     $PODS_ROOT/SwiftGen/bin/swiftgen fonts "$TARGET_DIR/Resources/Fonts" --output "$COMMON_DIR/Code/Constants/SwiftGen/Fonts.swift" -t swift4
     $PODS_ROOT/SwiftGen/bin/swiftgen strings "$COMMON_DIR/Resources/en.lproj/Localizable.strings" --output "$COMMON_DIR/Code/Constants/SwiftGen/Strings.swift" -t structured-swift4
 else

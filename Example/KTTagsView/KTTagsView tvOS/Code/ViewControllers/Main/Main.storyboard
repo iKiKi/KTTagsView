@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="14109" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="appleTV" orientation="landscape">
         <adaptation id="light"/>
     </device>
     <dependencies>
         <deployment identifier="tvOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AmA-MY-z0V">
-                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                <rect key="frame" x="90" y="60" width="1740" height="960"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="bJF-qN-cMY">
                                     <size key="itemSize" width="50" height="50"/>
@@ -39,10 +39,10 @@
                             </collectionView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="AmA-MY-z0V" secondAttribute="bottom" id="DKi-aa-EPb"/>
-                            <constraint firstItem="AmA-MY-z0V" firstAttribute="leading" secondItem="7iF-og-Hj9" secondAttribute="leading" id="c2K-CL-HnO"/>
-                            <constraint firstAttribute="trailing" secondItem="AmA-MY-z0V" secondAttribute="trailing" id="rEe-FZ-QCs"/>
-                            <constraint firstItem="AmA-MY-z0V" firstAttribute="top" secondItem="7iF-og-Hj9" secondAttribute="top" id="zTN-14-g2p"/>
+                            <constraint firstItem="AmA-MY-z0V" firstAttribute="top" secondItem="lWa-PB-ldD" secondAttribute="bottom" id="EPw-8I-r7r"/>
+                            <constraint firstItem="bgu-IA-vg8" firstAttribute="top" secondItem="AmA-MY-z0V" secondAttribute="bottom" id="Qhq-WN-fnc"/>
+                            <constraint firstItem="AmA-MY-z0V" firstAttribute="leading" secondItem="Kud-5I-rC3" secondAttribute="leading" id="TaG-j4-zdb"/>
+                            <constraint firstItem="Kud-5I-rC3" firstAttribute="trailing" secondItem="AmA-MY-z0V" secondAttribute="trailing" id="zQm-8b-idX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kud-5I-rC3"/>
                     </view>
