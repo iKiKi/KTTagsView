@@ -38,7 +38,7 @@ It also includes a few styling properties:
 The preferred installation method is with [CocoaPods](http://cocoapods.org). Add the following to your `Podfile`:
 
 ```ruby
-pod 'KTTagsView'
+pod 'KTTagsView', '~> 1.0.1'
 ```
 
 ### Carthage

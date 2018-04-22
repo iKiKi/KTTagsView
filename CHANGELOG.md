@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 ---
 
 ## [1.0.1](https://github.com/iKiKi/KTTagsView/releases/tag/1.0.1)
-Released on 2014-10-20.
+Released on 2018-04-22.
 
 #### Added
 - `CHANGELOG.md`.

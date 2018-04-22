@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name                     = 'KTTagsView'
-  spec.version                  = '1.0.0'
+  spec.version                  = '1.0.1'
   spec.swift_version            = '4.0'
   spec.cocoapods_version        = '>= 1.4.0'
   spec.author                   = { "Killian THORON" => "killian.thoron@gmail.com" }
