@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license                  = { :type => "MIT", :file => "LICENSE" }
   spec.homepage                 = 'https://github.com/iKiKi/KTTagsView'
   spec.source                   = { :git => "https://github.com/iKiKi/KTTagsView.git", :tag => spec.version.to_s }
-  spec.summary                  = "An iOS view to layout your tags"
+  spec.summary                  = "A Swift UIView to layout your tags"
   spec.description              = <<-DESC
                                     KTTagsView offers a Swift UIView and protocols to help you to display your own custom views as "tags".
                                     This library is very useful when you need to display your tags in a UIScrollView, as it is handled by a UIView.
