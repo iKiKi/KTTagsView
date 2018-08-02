@@ -23,7 +23,7 @@
 import UIKit
 
 public protocol TagsViewDataSource: class {
-  func tagsView(_ tagsView: TagsView, sizeForTagAt index: Int) -> CGSize
+  func tagsView(_ tagsView: TagsView, preferredSizeForTagAt index: Int) -> CGSize
   func tagsView(_ tagsView: TagsView, viewForTagAt index: Int) -> UIView
 }
 
@@ -137,13 +137,10 @@ private extension TagsView {
     var rowWidth: CGFloat = self.minimumIntertagSpacing
     var rowHeight: CGFloat = 0
     for index in 0..<self.nbOfTags {
-      let size = dataSource.tagsView(self, sizeForTagAt: index)
+      var size = dataSource.tagsView(self, preferredSizeForTagAt: index)
 
-      guard
-        size.width <= self.bounds.width
-      else {
-        fatalError("The size: \(size) returned for the tag at index: \(index) is larger than the \(TagsView.self) bounds: \(self.bounds). Please review your implementation")
-      }
+      // Make sure the tag's width won't exceed the current width
+      size.width = min(size.width, self.bounds.width)
 
       let width = size.width + self.minimumIntertagSpacing
       let remainingWidth: CGFloat = self.bounds.width - rowWidth
