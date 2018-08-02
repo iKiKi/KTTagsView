@@ -74,10 +74,7 @@ extension MyTagView: TagSizable {
     let adjustedSize = CGSize(width: contentSize.width - margins, height: contentSize.height - margins)
     let width = UILabel.width(fitting: adjustedSize, string: tag, attributes: MyTagView.tagAttributes)
     let height = UILabel.height(fitting: adjustedSize, string: tag, attributes: MyTagView.tagAttributes)
-    // Uncomment to assert the width too large fatal error
-//    return CGSize(width: width, height: height)
-    let constrainedWidth: CGFloat = min(contentSize.width, width + margins)
-    return CGSize(width: constrainedWidth, height: height + margins)
+    return CGSize(width: width + margins, height: height + margins)
   }
 }
 

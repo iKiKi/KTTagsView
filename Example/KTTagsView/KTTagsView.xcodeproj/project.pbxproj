@@ -505,7 +505,6 @@
 				279B49AE2044BE3B003056D3 /* Frameworks */,
 				279B49AF2044BE3B003056D3 /* Resources */,
 				EF1A51A0CB0566B503EF6AD1 /* [CP] Embed Pods Frameworks */,
-				6EA4ECB5487F2DB41AE03E6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,7 +526,6 @@
 				279B49EE2044C1D3003056D3 /* Frameworks */,
 				279B49EF2044C1D3003056D3 /* Resources */,
 				30FADEDE683A5FB3137B255A /* [CP] Embed Pods Frameworks */,
-				FA5A9D4BF62DA7DA50C97D2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -722,21 +720,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6EA4ECB5487F2DB41AE03E6D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EF1A51A0CB0566B503EF6AD1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -753,21 +736,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView iOS/Pods-KTTagsView iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA5A9D4BF62DA7DA50C97D2C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTTagsView tvOS/Pods-KTTagsView tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

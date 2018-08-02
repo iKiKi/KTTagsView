@@ -53,10 +53,15 @@ internal extension UIViewController {
 
 // swiftlint:disable explicit_type_interface identifier_name line_length type_body_length type_name
 internal enum StoryboardScene {
+  internal enum LaunchScreen: StoryboardType {
+    internal static let storyboardName = "LaunchScreen"
+
+    internal static let initialScene = InitialSceneType<UIViewController>(storyboard: LaunchScreen.self)
+  }
   internal enum Main: StoryboardType {
     internal static let storyboardName = "Main"
 
-    internal static let mainViewController = SceneType<KTTagsView_tvOS.MainViewController>(storyboard: Main.self, identifier: "MainViewController")
+    internal static let mainViewController = SceneType<KTTagsView_iOS.MainViewController>(storyboard: Main.self, identifier: "MainViewController")
   }
 }
 

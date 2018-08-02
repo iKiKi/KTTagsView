@@ -121,7 +121,7 @@ final class TagsViewModel: TagsProvider {
 // MARK: - TagsViewDataSource
 extension TagsViewModel: TagsViewDataSource {
   
-  func tagsView(_ tagsView: TagsView, sizeForTagAt index: Int) -> CGSize {
+  func tagsView(_ tagsView: TagsView, preferredSizeForTagAt index: Int) -> CGSize {
     let tag = self.tags[index]
     return MyTagView.preferredSize(with: tagsView.bounds.size, tag: tag, at: index)
   }
